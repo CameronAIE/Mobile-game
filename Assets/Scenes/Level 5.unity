@@ -708,7 +708,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4919389395925735425, guid: 0a8576d50b6836e479b3ce6e49e7b52d, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 18.23
+      value: -75.05
       objectReference: {fileID: 0}
     - target: {fileID: 4919389395925735425, guid: 0a8576d50b6836e479b3ce6e49e7b52d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -852,7 +852,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 42.8051, y: 0, z: 46.419525, w: 0}
+  m_margin: {x: 42.8051, y: 0, z: 46.419525, w: 419.10968}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0

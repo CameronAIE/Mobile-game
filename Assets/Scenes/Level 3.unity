@@ -935,7 +935,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: 0, w: 99.097885}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1116,7 +1116,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4919389395925735425, guid: 0a8576d50b6836e479b3ce6e49e7b52d, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 18.23
+      value: -70.96
       objectReference: {fileID: 0}
     - target: {fileID: 4919389395925735425, guid: 0a8576d50b6836e479b3ce6e49e7b52d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x

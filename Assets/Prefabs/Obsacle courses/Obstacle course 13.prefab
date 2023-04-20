@@ -339,7 +339,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defualtSpeed: 2
   difficultyMultiplyer: 1
-  deathZone: -17.5
+  deathZone: -18.69
   gm: {fileID: 0}
 --- !u!1 &6297221883380589686
 GameObject:
