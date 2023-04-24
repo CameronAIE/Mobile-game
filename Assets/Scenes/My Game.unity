@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.3069224, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -805,6 +805,7 @@ MonoBehaviour:
   - {fileID: 2460767555406271543, guid: 8649fab944116e043bf8579051f89a82, type: 3}
   - {fileID: 7117650344949457912, guid: 7257c13b57f1fe04b97f5ea669dd84a3, type: 3}
   - {fileID: 5277135389921810223, guid: e21e772af21e2af4c8a3046fb07109bf, type: 3}
+  - {fileID: 4237724301933195434, guid: 27f008df0e4f8ed47be0752136944ef0, type: 3}
   gameOverText: {fileID: 4812506597540701209}
   winText: {fileID: 0}
   scoreText: {fileID: 4812506597164985808}
