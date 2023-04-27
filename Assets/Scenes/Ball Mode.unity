@@ -1208,6 +1208,9 @@ MonoBehaviour:
   - {fileID: 5577664881992311835, guid: 830e295b5d988ba488bcb6e243ebeeda, type: 3}
   - {fileID: 5577664881992311835, guid: 1f4681bf227c85849a6aaacf2aa88304, type: 3}
   - {fileID: 5577664881992311835, guid: 5e2b2e42e68c1b244acff3624e25a076, type: 3}
+  - {fileID: 5577664881992311835, guid: 1b4b6b8d7ca45da4596f09a0046cfd03, type: 3}
+  - {fileID: 5577664881992311835, guid: df6511d00e12025499dab7263fc65e74, type: 3}
+  - {fileID: 5577664881992311835, guid: b8bfc89d920e75947a48d5db3d3443a2, type: 3}
   livesText: {fileID: 1046552328}
   lives: 3
   lost: 0
