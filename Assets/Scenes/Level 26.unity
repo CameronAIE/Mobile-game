@@ -296,7 +296,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 930280007072399300, guid: 4c4ecf70abfb8844891af6d6decc7da0, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.99992734
       objectReference: {fileID: 0}
     - target: {fileID: 930280007072399300, guid: 4c4ecf70abfb8844891af6d6decc7da0, type: 3}
       propertyPath: m_LocalRotation.x
@@ -308,7 +308,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 930280007072399300, guid: 4c4ecf70abfb8844891af6d6decc7da0, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0.012059958
       objectReference: {fileID: 0}
     - target: {fileID: 930280007072399300, guid: 4c4ecf70abfb8844891af6d6decc7da0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -320,7 +320,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 930280007072399300, guid: 4c4ecf70abfb8844891af6d6decc7da0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: -1.382
       objectReference: {fileID: 0}
     - target: {fileID: 5263110582396068240, guid: 4c4ecf70abfb8844891af6d6decc7da0, type: 3}
       propertyPath: m_Name
@@ -827,19 +827,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 930280007072399300, guid: 4c4ecf70abfb8844891af6d6decc7da0, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.9999273
       objectReference: {fileID: 0}
     - target: {fileID: 930280007072399300, guid: 4c4ecf70abfb8844891af6d6decc7da0, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 930280007072399300, guid: 4c4ecf70abfb8844891af6d6decc7da0, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 930280007072399300, guid: 4c4ecf70abfb8844891af6d6decc7da0, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: 0.012062393
       objectReference: {fileID: 0}
     - target: {fileID: 930280007072399300, guid: 4c4ecf70abfb8844891af6d6decc7da0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -851,7 +851,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 930280007072399300, guid: 4c4ecf70abfb8844891af6d6decc7da0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: 1.382
       objectReference: {fileID: 0}
     - target: {fileID: 5263110582396068240, guid: 4c4ecf70abfb8844891af6d6decc7da0, type: 3}
       propertyPath: m_Name
@@ -4263,4 +4263,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83ee6fc221736b14686add22d1aa0023, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scene: Level 26
+  scene: Level 27
