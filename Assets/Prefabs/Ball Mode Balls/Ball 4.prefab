@@ -112,7 +112,7 @@ Rigidbody:
   m_GameObject: {fileID: 5577664881992311835}
   serializedVersion: 2
   m_Mass: 5
-  m_Drag: 2
+  m_Drag: 1.5
   m_AngularDrag: 0
   m_UseGravity: 0
   m_IsKinematic: 0
@@ -132,7 +132,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   explosion: {fileID: 4561536677473811106, guid: cecedc964c0009e4092efc4bcc1a3a85, type: 3}
-  score: 150
+  score: 220
 --- !u!114 &5577664881992311836
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -158,7 +158,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cbb18b06386480b4e829388a14df6a62, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  whenToMove: 1.25
+  whenToMove: 2
   maxForce: 150
 --- !u!114 &1055227373879332457
 MonoBehaviour:
@@ -172,8 +172,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c79eb9f04473a8468a319e114f099bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  whenToMove: 0.75
-  maxForce: 100
+  whenToMove: 1.25
+  maxForce: 45
 --- !u!1 &5577664883428918284
 GameObject:
   m_ObjectHideFlags: 0

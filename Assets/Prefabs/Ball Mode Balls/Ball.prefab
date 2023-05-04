@@ -130,7 +130,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   explosion: {fileID: 4561536677473811106, guid: cecedc964c0009e4092efc4bcc1a3a85, type: 3}
-  score: 100
+  score: 170
 --- !u!114 &5577664881992311836
 MonoBehaviour:
   m_ObjectHideFlags: 0
