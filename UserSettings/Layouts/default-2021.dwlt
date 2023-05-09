@@ -43,7 +43,11 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
+<<<<<<< HEAD
   m_Title: Project
+=======
+  m_Title: Hierarchy
+>>>>>>> parent of 5464b1b2 (got rid of double levels)
   m_RootView: {fileID: 9}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -98,7 +102,11 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 8096}
   vertical: 0
+<<<<<<< HEAD
   controlID: 97
+=======
+  controlID: 95
+>>>>>>> parent of 5464b1b2 (got rid of double levels)
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -123,7 +131,11 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
+<<<<<<< HEAD
   controlID: 18
+=======
+  controlID: 107
+>>>>>>> parent of 5464b1b2 (got rid of double levels)
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -299,7 +311,11 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
+<<<<<<< HEAD
   controlID: 23
+=======
+  controlID: 163
+>>>>>>> parent of 5464b1b2 (got rid of double levels)
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -324,7 +340,11 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
+<<<<<<< HEAD
   controlID: 24
+=======
+  controlID: 164
+>>>>>>> parent of 5464b1b2 (got rid of double levels)
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -690,9 +710,15 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
     m_Target: {x: 0.8511648, y: 0.9186578, z: 31.444916}
     speed: 2
     m_Value: {x: 0.8511648, y: 0.9186578, z: 31.444916}
+=======
+    m_Target: {x: 0.26666674, y: -1.0562341, z: 31.611439}
+    speed: 2
+    m_Value: {x: 0.26666674, y: -1.0562341, z: 31.611439}
+>>>>>>> parent of 5464b1b2 (got rid of double levels)
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -743,9 +769,15 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0.03867812, y: -0.011394473, z: -0.0004369455, w: -0.9991867}
   m_Size:
+<<<<<<< HEAD
     m_Target: 8.371397
     speed: 2
     m_Value: 8.371397
+=======
+    m_Target: 5.98288
+    speed: 2
+    m_Value: 5.98288
+>>>>>>> parent of 5464b1b2 (got rid of double levels)
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -854,10 +886,17 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
+<<<<<<< HEAD
     scrollPos: {x: 0, y: 84}
     m_SelectedIDs: 52630000
     m_LastClickedID: 25426
     m_ExpandedIDs: 00000000ca620000506300008c70000000ca9a3bffffff7f
+=======
+    scrollPos: {x: 0, y: 44}
+    m_SelectedIDs: 54630000
+    m_LastClickedID: 25428
+    m_ExpandedIDs: 00000000ca620000526300007e63000000ca9a3bffffff7f
+>>>>>>> parent of 5464b1b2 (got rid of double levels)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -976,7 +1015,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 162
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
@@ -1013,9 +1052,15 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
       m_SelectedIDs: bc890000
       m_LastClickedID: 35260
       m_ExpandedIDs: b4baffff4ecafffff2caffff6accffff84cdffff42ceffffa4cfffff26d0ffff6cedffff38eeffffe8efffffc0f0ffff46f2ffff38f3fffffef3ffffb0f4ffff5ef5ffff24f6ffff0af7ffff38f8ffff10f9ffff30fbffff3a640000706400000e65000028650000446500000e660000426600009c680000d268000078690000ae690000666a00009a6a0000686b00009c6b0000426c0000826c0000366e0000766e000024700000587000001879000056790000c27b0000f87b0000ea890000288a0000
+=======
+      m_SelectedIDs: e09a0000
+      m_LastClickedID: 39648
+      m_ExpandedIDs: 32d8ffffe8f2ffff7cf4ffff44f5ffff30fbffff2a6d00005e6d0000086f0000466f00002a9b00005e9b0000
+>>>>>>> parent of 5464b1b2 (got rid of double levels)
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
