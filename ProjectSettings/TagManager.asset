@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Ball
   - die
+  - attack
   layers:
   - Default
   - TransparentFX

@@ -5,12 +5,13 @@ using UnityEngine;
 public class MovePlayer : MonoBehaviour
 {
     private Rigidbody rb;
-    
+    private GameManager gm;
 
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+        gm = GameObject.FindObjectOfType<GameManager>();
     }
 
     // Update is called once per frame
@@ -29,6 +30,16 @@ public class MovePlayer : MonoBehaviour
                 rb.MovePosition(new Vector3(objectPos.x, -1.675f, objectPos.z));
             }
         
+
         
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "attack")
+        {
+            gm.lives--;
+            other.tag = "die";
+        }
     }
 }

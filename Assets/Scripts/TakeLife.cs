@@ -6,6 +6,9 @@ public class TakeLife : MonoBehaviour
 {
     [SerializeField]
     private GameManager gm;
+
+    [SerializeField]
+    int blackBallScore;
     // Start is called before the first frame update
     void Start()
     {
@@ -24,6 +27,10 @@ public class TakeLife : MonoBehaviour
         {
             gm.lives--;
             other.tag = "die";
+        } else if (other.tag == "attack")
+        {
+            other.tag = "die";
+            gm.score += blackBallScore;
         }
     }
 }

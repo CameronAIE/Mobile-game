@@ -135,6 +135,10 @@ public class GameManager : MonoBehaviour
 
             if (lives <= 0)
             {
+                if (lives != 0)
+                {
+                    lives = 0;
+                }
                 gameOver = true;
             }
 

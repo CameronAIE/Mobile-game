@@ -377,6 +377,7 @@
 "Assets/Scripts/StartGame.cs"
 "Assets/Scripts/TakeLife.cs"
 "Assets/Scripts/TextureScroller.cs"
+"Assets/Scripts/WhiteBall.cs"
 "Assets/Scripts/WinnerCollision.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
