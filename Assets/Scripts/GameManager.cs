@@ -111,6 +111,7 @@ public class GameManager : MonoBehaviour
             {
                 ballDiff += .01f * Time.deltaTime;
                 ballTimer += Time.deltaTime;
+                livesText.text = "Lives: " + lives.ToString();
                 if (!Input.GetMouseButton(0))
                 {
                     puaseObjects.SetActive(true);
@@ -137,7 +138,7 @@ public class GameManager : MonoBehaviour
                 gameOver = true;
             }
 
-            livesText.text = "Lives: " + lives.ToString();
+            
 
             
             if (ballTimer >= (5 - ballDiff) + randomBallTimer)
