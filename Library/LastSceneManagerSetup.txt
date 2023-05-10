@@ -1,13 +1,5 @@
 sceneSetups:
-<<<<<<< HEAD
-<<<<<<< HEAD
 - path: Assets/Scenes/Level 28.unity
-=======
-- path: Assets/Scenes/Level 26.unity
->>>>>>> parent of 5464b1b2 (got rid of double levels)
-=======
-- path: Assets/Scenes/Start.unity
->>>>>>> origin/main
   isLoaded: 1
   isActive: 1
   isSubScene: 0
