@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.3069224, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -741,7 +741,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4919389395925735425, guid: 0a8576d50b6836e479b3ce6e49e7b52d, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 56.31
+      value: 69
       objectReference: {fileID: 0}
     - target: {fileID: 4919389395925735425, guid: 0a8576d50b6836e479b3ce6e49e7b52d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1160,7 +1160,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -72.4}
-  m_SizeDelta: {x: 188.8, y: 52.74}
+  m_SizeDelta: {x: 188.8, y: 69}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &746600202
 MonoBehaviour:
@@ -1238,7 +1238,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300000, guid: 823f604ed7828444789ba54e0a454587, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1461,7 +1461,9 @@ MonoBehaviour:
   - {fileID: 7674911666087527904, guid: b4b93b90ea4651842a7274f1330cb080, type: 3}
   gameOverText: {fileID: 4812506598475489852}
   winText: {fileID: 1505590416}
+  currentLevel: 15
   scoreText: {fileID: 0}
+  highScoreText: {fileID: 0}
   timerText: {fileID: 0}
   currentDiff: 0
   player: {fileID: 130011250}
@@ -2717,7 +2719,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300000, guid: 823f604ed7828444789ba54e0a454587, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2976,7 +2978,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4919389395925735425, guid: 0a8576d50b6836e479b3ce6e49e7b52d, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 56.31
+      value: 69
       objectReference: {fileID: 0}
     - target: {fileID: 4919389395925735425, guid: 0a8576d50b6836e479b3ce6e49e7b52d, type: 3}
       propertyPath: m_LocalPosition.x

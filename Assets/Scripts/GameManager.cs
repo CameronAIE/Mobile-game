@@ -17,7 +17,11 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     private GameObject winText;
     [SerializeField]
+    private int currentLevel;
+    [SerializeField]
     private TMP_Text scoreText;
+    [SerializeField]
+    private TMP_Text highScoreText;
     [SerializeField]
     private TMP_Text timerText;
     public float currentDiff = 1;
@@ -59,7 +63,9 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        PlayerPrefs.GetInt("BallScore", 0);
+        PlayerPrefs.GetInt("HighScore", 0);
+        PlayerPrefs.GetInt("Level", 1);
     }
 
     // Update is called once per frame
@@ -88,8 +94,15 @@ public class GameManager : MonoBehaviour
             {
                 Time.timeScale = 1;
                 float floorScore = Mathf.Floor(score);
+                int intFloorScore = (int)floorScore;
                 gameOverText.SetActive(true);
                 scoreText.text = "Score: " + floorScore.ToString();
+                
+                if (floorScore > PlayerPrefs.GetInt("HighScore"))
+                {
+                    PlayerPrefs.SetInt("HighScore", intFloorScore);
+                }
+                highScoreText.text = "HighScore: " + (PlayerPrefs.GetInt("HighScore")).ToString();
                 Destroy(player);
                 if (!exploded)
                 {
@@ -127,8 +140,15 @@ public class GameManager : MonoBehaviour
             {
                 Time.timeScale = 1;
                 float floorScore = Mathf.Floor(score);
+                int intFloorScore = (int)floorScore;
                 gameOverText.SetActive(true);
                 scoreText.text = "Score: " + floorScore.ToString();
+                
+                if (floorScore > PlayerPrefs.GetInt("BallScore"))
+                {
+                    PlayerPrefs.SetInt("BallScore", intFloorScore);
+                }
+                highScoreText.text = "HighScore: " + (PlayerPrefs.GetInt("BallScore")).ToString();
                 Destroy(player);
                 
             }
@@ -154,8 +174,13 @@ public class GameManager : MonoBehaviour
         }
         else
         {
+
             if (gameOver == false)
             {
+                if (currentLevel > PlayerPrefs.GetInt("Level"))
+                {
+                    PlayerPrefs.SetInt("Level", currentLevel);
+                }
                 score += Time.deltaTime;
                 if (!Input.GetMouseButton(0))
                 {
@@ -201,6 +226,10 @@ public class GameManager : MonoBehaviour
 
                 else if (won)
                 {
+                    if (currentLevel == PlayerPrefs.GetInt("Level"))
+                    {
+                        PlayerPrefs.SetInt("Level", currentLevel + 1);
+                    }
                     winText.SetActive(true);
                     if (!exploded)
                     {
